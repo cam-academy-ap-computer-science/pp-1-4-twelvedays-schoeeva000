@@ -2,32 +2,38 @@
 public class TwelveDays {
 
 	public static void main(String[] args) { //wow this is a long main
-		System.out.print("On the first ");
+		ot();
+		System.out.print("first ");
 		sent();
 		partridge();
-		System.out.print("On the second ");
+		ot();
+		System.out.print("second ");
 		sent();
 		turtle();
 		partridge();
-		System.out.print("On the third ");
+		ot();
+		System.out.print("third ");
 		sent();
 		hens();
 		turtle();
 		partridge();
-		System.out.print("On the fourth ");
+		ot();
+		System.out.print("fourth ");
 		sent();
 		birds();
 		hens();
 		turtle();
 		partridge();
-		System.out.print("On the fifth ");
+		ot();
+		System.out.print("fifth ");
 		sent();
 		rings();
 		birds();
 		hens();
 		turtle();
 		partridge();
-		System.out.print("On the sixth ");
+		ot();
+		System.out.print("sixth ");
 		sent();
 		geese();
 		rings();
@@ -35,7 +41,8 @@ public class TwelveDays {
 		hens();
 		turtle();
 		partridge();
-		System.out.print("On the seventh ");
+		ot();
+		System.out.print("seventh ");
 		sent();
 		swans();
 		geese();
@@ -44,7 +51,8 @@ public class TwelveDays {
 		hens();
 		turtle();
 		partridge();
-		System.out.print("On the eighth ");
+		ot();
+		System.out.print("eighth ");
 		sent();
 		maids();
 		swans();
@@ -54,7 +62,8 @@ public class TwelveDays {
 		hens();
 		turtle();
 		partridge();
-		System.out.print("On the ninth ");
+		ot();
+		System.out.print("ninth ");
 		sent();
 		ladies();
 		maids();
@@ -65,7 +74,8 @@ public class TwelveDays {
 		hens();
 		turtle();
 		partridge();
-		System.out.print("On the tenth ");
+		ot();
+		System.out.print("tenth ");
 		sent();
 		lords();
 		ladies();
@@ -77,7 +87,8 @@ public class TwelveDays {
 		hens();
 		turtle();
 		partridge();
-		System.out.print("On the eleventh");
+		ot();
+		System.out.print("eleventh");
 		sent();
 		pipers();
 		lords();
@@ -90,7 +101,8 @@ public class TwelveDays {
 		hens();
 		turtle();
 		partridge();
-		System.out.print("On the twelfth ");
+		ot();
+		System.out.print("twelfth ");
 		sent();
 		drummers();
 		pipers();
@@ -109,6 +121,9 @@ public class TwelveDays {
 	
 	//wow this is a lot of static methods
 	
+	public static void ot() {
+		System.out.print("On the ");  //prints "On the " in order to reduce redundancy
+	}
 	public static void sent() {
 		System.out.println("day of Christmas,\nMy true love sent to me");
 	}
